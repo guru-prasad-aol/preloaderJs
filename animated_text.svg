@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <!-- Animated Circle with Letter J -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- First Circle with Letter J -->
   <g>
-    <circle fill="#B35FFF" stroke="#B35FFF" stroke-width="15" r="15" cx="40" cy="65">
-      <animate attributeName="cy" dur="2s" values="65;90;65" repeatCount="indefinite" />
+    <circle fill="#FF5733" stroke="#FF5733" stroke-width="15" r="15" cx="40" cy="65">
+      <animate attributeName="cy" dur="2s" values="65;90;65" begin="0s" repeatCount="indefinite" />
     </circle>
     <text x="35" y="70" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
       J
-      <animate attributeName="y" dur="2s" values="70;95;70" repeatCount="indefinite" />
+      <animate attributeName="y" dur="2s" values="70;95;70" begin="0s" repeatCount="indefinite" />
     </text>
   </g>
 
-  <!-- Animated Circle with Letter G -->
+  <!-- Second Circle with Letter G -->
   <g>
-    <circle fill="#B35FFF" stroke="#B35FFF" stroke-width="15" r="15" cx="100" cy="65">
+    <circle fill="#33FF57" stroke="#33FF57" stroke-width="15" r="15" cx="100" cy="65">
       <animate attributeName="cy" dur="2s" values="65;90;65" begin="0.3s" repeatCount="indefinite" />
     </circle>
     <text x="95" y="70" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
@@ -21,14 +21,14 @@
     </text>
   </g>
 
-  <!-- Animated Circle with Letter D -->
+  <!-- Third Circle with Letter D -->
   <g>
-  <circle fill="#B35FFF" stroke="#B35FFF" stroke-width="15" r="15" cx="160" cy="65">
-    <animate attributeName="cy" dur="2s" values="65;90;65" begin="0.6s" repeatCount="indefinite" />
-  </circle>
-  <text x="155" y="70" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
-    D
-    <animate attributeName="y" dur="2s" values="70;95;70" begin="0.6s" repeatCount="indefinite" />
-  </text>
-</g>
-
+    <circle fill="#B35FFF" stroke="#B35FFF" stroke-width="15" r="15" cx="160" cy="65">
+      <animate attributeName="cy" dur="2s" values="65;90;65" begin="0.6s" repeatCount="indefinite" />
+    </circle>
+    <text x="155" y="70" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
+      D
+      <animate attributeName="y" dur="2s" values="70;95;70" begin="0.6s" repeatCount="indefinite" />
+    </text>
+  </g>
+</svg>
