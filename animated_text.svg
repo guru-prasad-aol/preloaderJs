@@ -23,8 +23,12 @@
 
   <!-- Animated Circle with Letter D -->
   <g>
-    <circle fill="#B35FFF" stroke="#B35FFF" stroke-width="15" r="15" cx="160" cy="65">
-      <animate attributeName="cy" dur="2s" values="65;90;65" begin="0.6s" repeatCount="indefinite" />
-    </circle>
-    <text x="155" y="70" fill
+  <circle fill="#B35FFF" stroke="#B35FFF" stroke-width="15" r="15" cx="160" cy="65">
+    <animate attributeName="cy" dur="2s" values="65;90;65" begin="0.6s" repeatCount="indefinite" />
+  </circle>
+  <text x="155" y="70" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
+    D
+    <animate attributeName="y" dur="2s" values="70;95;70" begin="0.6s" repeatCount="indefinite" />
+  </text>
+</g>
 
