@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Letter J -->
+  <text x="30" y="65" fill="#B35FFF" font-size="30" font-family="Arial" text-anchor="middle">
+    J
+    <animate attributeName="y" calcMode="spline" dur="2s" values="65;90;65" keySplines="0.25 0.1 0.25 1" repeatCount="indefinite" />
+  </text>
+  
+  <!-- Letter G -->
+  <text x="80" y="65" fill="#B35FFF" font-size="30" font-family="Arial" text-anchor="middle">
+    G
+    <animate attributeName="y" calcMode="spline" dur="2s" values="65;90;65" keySplines="0.25 0.1 0.25 1" repeatCount="indefinite" begin="0.3s" />
+  </text>
+  
+  <!-- Letter D -->
+  <text x="130" y="65" fill="#B35FFF" font-size="30" font-family="Arial" text-anchor="middle">
+    D
+    <animate attributeName="y" calcMode="spline" dur="2s" values="65;90;65" keySplines="0.25 0.1 0.25 1" repeatCount="indefinite" begin="0.6s" />
+  </text>
+</svg>
