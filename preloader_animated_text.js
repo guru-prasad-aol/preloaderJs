@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://guru-prasad-aol.github.io/preloaderJs/animated_text.svg';
+svgImage.src = 'https://guru-prasad-aol.github.io/preloaderJs/joy_sharing_grows.svg';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
